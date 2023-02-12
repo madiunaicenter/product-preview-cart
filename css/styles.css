@@ -1,0 +1,109 @@
+body {
+    width: 1440px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+#content {
+    width: 680px;
+    height: 440px;
+    margin: 280px 380px;
+}
+
+.content-image {
+    width: 340px;
+    height: 480px;
+    position: absolute;
+}
+
+.images {
+    width: 340px;
+    height: 480px;
+    border-radius: 10px 0 0 10px;
+}
+
+.content-deskripsi {
+    width: 280px;
+    height: 420px;
+    position: relative;
+    margin-left: 340px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 10px 10px 0;
+    padding: 30px;
+}
+
+.price {
+    width: 280px;
+    height: 75px;
+    margin-top: 0;
+}
+
+.price-diskon {
+    width: 140px;
+    height: 75px;
+    margin-top: 0;
+    position: absolute;
+}
+
+.price-normal {
+    width: 140px;
+    height: 75px;
+    position: relative;
+    margin-left: 150px;
+    padding-top: 25px;
+}
+ 
+.perfume {
+    letter-spacing: 5px;
+}
+
+p {
+    color: #8f8f8f;
+    margin: 0 auto 10px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 40px;
+    line-height: 1.5;
+}
+
+h1 {
+    
+    margin: 0 auto 20px;
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: hsl(158, 36%, 37%);
+    margin: 0 auto 20px;
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    padding-top: 15px;
+}
+
+.btn {
+    background: hsl(158, 36%, 37%);
+    background-image: -webkit-linear-gradient(top, #20a871, #0c8756);
+    background-image: -moz-linear-gradient(top, #20a871, #0c8756);
+    background-image: -ms-linear-gradient(top, #20a871, #0c8756);
+    background-image: -o-linear-gradient(top, #20a871, #0c8756);
+    background-image: linear-gradient(to bottom, #20a871, #0c8756);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background: hsl(228, 12%, 48%);
+    background-image: -webkit-linear-gradient(top, #3cfc6f, #34d955);
+    background-image: -moz-linear-gradient(top, #3cfc6f, #34d955);
+    background-image: -ms-linear-gradient(top, #3cfc6f, #34d955);
+    background-image: -o-linear-gradient(top, #3cfc6f, #34d955);
+    background-image: linear-gradient(to bottom, #3cfc6f, #34d955);
+    text-decoration: none;
+  }  
